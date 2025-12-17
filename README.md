@@ -1,2 +1,31 @@
-# mini-project
-itialize frontend React app (Vite) and install deps  Build login/register UI and auth state management  Build events list and create/edit/delete UI  Run both servers and verify end-to-end flows
+{
+  "name": "event-platform-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mini Event platform backend with Node.js, Express.js, MongoDB, and JWT auth",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "events",
+    "express",
+    "mongodb",
+    "jwt"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
